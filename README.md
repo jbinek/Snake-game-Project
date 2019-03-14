@@ -9,3 +9,6 @@ Rules:
 - Space bar may also be used for "Play" and "Pause"
 - Eat an apple to gain 1 point
 - Eat a star to gain 3 points
+
+
+Good luck!
