@@ -16,14 +16,14 @@ ZOLTY = (255, 255, 0)
 CIEMNY_ZIELONY = (0, 150,   0)
 SZARY  = ( 30,  30,  30)
 
-snd_dir = path.join(path.dirname(__file__), 'sounds')
+sounds_dir = path.join(path.dirname(__file__), 'sounds')
 
 pygame.mixer.init()
 
 
-przegrana=pygame.mixer.Sound(path.join(snd_dir,'przegrana.ogg'))
-muzyka_w_tle=pygame.mixer.Sound(path.join(snd_dir,'music.wav'))
-hello=pygame.mixer.Sound(path.join(snd_dir,'hello.wav'))
+przegrana=pygame.mixer.Sound(path.join(sounds_dir,'przegrana.ogg'))
+muzyka_w_tle=pygame.mixer.Sound(path.join(sounds_dir,'music.wav'))
+hello=pygame.mixer.Sound(path.join(sounds_dir,'hello.wav'))
 
 
 
@@ -44,14 +44,14 @@ MUREK_CZAS2 = 20
 pygame.init();
 
 ekran=pygame.display.set_mode((WIDTH, HEIGHT))
-image  = pygame.image.load('snake.jpg')
-image1  = pygame.image.load('piach.jpg')
+image  = pygame.image.load('start.jpg')
+image1  = pygame.image.load('grass.jpg')
 
-image2 = pygame.image.load('xx.png')
-image3  = pygame.image.load('cialo.jpg')
-image4  = pygame.image.load('sad.png')
+image2 = pygame.image.load('apple.png')
+image3  = pygame.image.load('body.jpg')
+image4  = pygame.image.load('end.png')
 image5 = pygame.image.load('bonus.png')
-image6 = pygame.image.load('murek.png')
+image6 = pygame.image.load('obstacle.png')
 
 pygame.display.set_caption('Snake') #tytul
 zegar=pygame.time.Clock()
