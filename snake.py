@@ -21,7 +21,7 @@ sounds_dir = path.join(path.dirname(__file__), 'sounds')
 pygame.mixer.init()
 
 
-przegrana=pygame.mixer.Sound(path.join(sounds_dir,'przegrana.ogg'))
+przegrana=pygame.mixer.Sound(path.join(sounds_dir,'failure.ogg'))
 muzyka_w_tle=pygame.mixer.Sound(path.join(sounds_dir,'music.wav'))
 hello=pygame.mixer.Sound(path.join(sounds_dir,'hello.wav'))
 
